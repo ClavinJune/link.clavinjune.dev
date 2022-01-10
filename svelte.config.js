@@ -14,8 +14,6 @@ const config = {
 			fallback: 'index.html',
 			precompress: false
 		}),
-
-		appDir: 'static',
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte'
 	}
