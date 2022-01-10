@@ -32,11 +32,13 @@
 	<body>
 		<div id="svelte"></div>
 
-		<script defer type="text/javascript" src="https://clavinjune.dev/js/ga.js"></script>
-		<script
-			defer
-			type="text/javascript"
-			src="https://www.googletagmanager.com/gtag/js?id=G-MTSJ0LHJ06"
-		></script>
+		<script defer src="https://www.googletagmanager.com/gtag/js?id=G-MTSJ0LHJ06"></script>
+		<script defer>
+			window.dataLayer = window.dataLayer || [];
+			function a() {
+				dataLayer.push(arguments);
+			}
+			a('js', new Date()), a('config', 'G-MTSJ0LHJ06');
+		</script>
 	</body>
 </html>
