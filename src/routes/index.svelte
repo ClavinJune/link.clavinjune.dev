@@ -1,7 +1,32 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 
-	let urls = [];
+	let urls = [
+		{
+			name: 'Loading latest article...',
+			url: 'https://clavinjune.dev/'
+		},
+		{
+			name: 'Ko-fi',
+			url: 'https://ko-fi.com/clavinjune'
+		},
+		{
+			name: 'Trakteer',
+			url: 'https://trakteer.id/clavinjune'
+		},
+		{
+			name: 'Github',
+			url: 'https://github.com/ClavinJune/'
+		},
+		{
+			name: 'LinkedIn',
+			url: 'https://linkedin.com/in/juneardoc/'
+		},
+		{
+			name: 'Twitter',
+			url: 'https://twitter.com/clavinjune/'
+		}
+	];
 
 	onMount(async () => {
 		let item = await fetch('https://clavinjune.dev/en/index.xml')
@@ -15,29 +40,7 @@
 				};
 			});
 
-		urls = [
-			item,
-			{
-				name: 'Ko-fi',
-				url: 'https://ko-fi.com/clavinjune'
-			},
-			{
-				name: 'Trakteer',
-				url: 'https://trakteer.id/clavinjune'
-			},
-			{
-				name: 'Github',
-				url: 'https://github.com/ClavinJune/'
-			},
-			{
-				name: 'LinkedIn',
-				url: 'https://linkedin.com/in/juneardoc/'
-			},
-			{
-				name: 'Twitter',
-				url: 'https://twitter.com/clavinjune/'
-			}
-		];
+		urls[0] = item;
 	});
 </script>
 
