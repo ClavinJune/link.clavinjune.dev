@@ -13,9 +13,7 @@ const config = {
 			assets: 'docs',
 			fallback: 'index.html',
 			precompress: false
-		}),
-		// hydrate the <div id="svelte"> element in src/app.html
-		target: '#svelte'
+		})
 	}
 };
 

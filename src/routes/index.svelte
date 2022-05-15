@@ -7,20 +7,24 @@
 			url: 'https://clavinjune.dev/'
 		},
 		{
-			name: 'Ko-fi',
-			url: 'https://ko-fi.com/clavinjune'
-		},
-		{
-			name: 'Trakteer',
-			url: 'https://trakteer.id/clavinjune'
+			name: 'Email',
+			url: 'mailto:juneardoc@gmail.com'
 		},
 		{
 			name: 'Github',
 			url: 'https://github.com/ClavinJune/'
 		},
 		{
+			name: 'Ko-fi',
+			url: 'https://ko-fi.com/clavinjune'
+		},
+		{
 			name: 'LinkedIn',
 			url: 'https://linkedin.com/in/juneardoc/'
+		},
+		{
+			name: 'Trakteer',
+			url: 'https://trakteer.id/clavinjune'
 		},
 		{
 			name: 'Twitter',

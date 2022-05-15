@@ -8,29 +8,24 @@
 		<meta property="og:type" content="website" />
 		<meta name="twitter:card" content="summary" />
 		<link rel="stylesheet" href="/css/style.css" />
-		
-
-		
-
-		<link rel="stylesheet" href="/_app/assets/start-61d1577b.css">
-		<link rel="modulepreload" href="/_app/start-a487acd2.js">
-		<link rel="modulepreload" href="/_app/chunks/vendor-14a7797c.js">
-
-		<script type="module">
-			import { start } from "/_app/start-a487acd2.js";
-			start({
-				target: document.querySelector("#svelte"),
-				paths: {"base":"","assets":""},
-				session: {},
-				route: true,
-				spa: true,
-				trailing_slash: "never",
-				hydrate: null
-			});
-		</script>
+		<meta http-equiv="content-security-policy" content="">
+	<link rel="modulepreload" href="/_app/start-b686070d.js">
+	<link rel="modulepreload" href="/_app/chunks/index-5019c391.js">
 	</head>
 	<body>
-		<div id="svelte"></div>
+		<div id="svelte">
+		<script type="module" data-hydrate="45h">
+		import { start } from "/_app/start-b686070d.js";
+		start({
+			target: document.querySelector('[data-hydrate="45h"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: true,
+			trailing_slash: "never",
+			hydrate: null
+		});
+	</script></div>
 
 		<script defer src="https://www.googletagmanager.com/gtag/js?id=G-MTSJ0LHJ06"></script>
 		<script defer>
