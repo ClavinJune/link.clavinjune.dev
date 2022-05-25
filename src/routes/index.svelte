@@ -7,6 +7,10 @@
 			url: 'https://clavinjune.dev/'
 		},
 		{
+			name: 'Curriculum Vitae',
+			url: 'https://gitconnected.com/clavinjune/resume'
+		},
+		{
 			name: 'Email',
 			url: 'mailto:juneardoc@gmail.com'
 		},
