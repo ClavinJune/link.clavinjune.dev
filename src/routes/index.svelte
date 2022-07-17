@@ -44,7 +44,9 @@
 				let item = data.querySelector('item');
 				return {
 					name: `Latest Article - ${item.querySelector('title').innerHTML}`,
-					url: item.querySelector('link').innerHTML
+					url: `${
+						item.querySelector('link').innerHTML
+					}?utm_source=link_clavinjune_dev&utm_medium=organic_social&utm_term=social_media&utm_content=text`
 				};
 			});
 
