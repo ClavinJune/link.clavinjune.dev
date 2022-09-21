@@ -7,10 +7,6 @@
 			url: 'https://clavinjune.dev/'
 		},
 		{
-			name: 'Curriculum Vitae',
-			url: 'https://gitconnected.com/clavinjune/resume'
-		},
-		{
 			name: 'Email',
 			url: 'mailto:juneardoc@gmail.com'
 		},
@@ -19,16 +15,12 @@
 			url: 'https://github.com/ClavinJune/'
 		},
 		{
-			name: 'Ko-fi',
-			url: 'https://ko-fi.com/clavinjune'
-		},
-		{
 			name: 'LinkedIn',
 			url: 'https://linkedin.com/in/juneardoc/'
 		},
 		{
-			name: 'Trakteer',
-			url: 'https://trakteer.id/clavinjune'
+			name: 'Secreto',
+			url: 'https://secreto.site/ancpq5'
 		},
 		{
 			name: 'Twitter',
