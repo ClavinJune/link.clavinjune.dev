@@ -19,6 +19,10 @@
 			url: 'https://linkedin.com/in/juneardoc/'
 		},
 		{
+			name: 'Resume',
+			url: 'https://docs.google.com/document/d/156u8qJGL2XsN6DLcvtO89wFcvz_HLdFIbEsfjejaT0k/edit?usp=sharing'
+		},
+		{
 			name: 'Secreto',
 			url: 'https://secreto.site/ancpq5'
 		},
