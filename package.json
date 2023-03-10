@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "svelte-kit dev --host=0.0.0.0",
-		"build": "rm -rf docs/ && svelte-kit build && touch docs/.nojekyll && cp CNAME docs/CNAME",
+		"build": "cp .env.example .env && rm -rf docs/ && svelte-kit build && touch docs/.nojekyll && cp CNAME docs/CNAME",
 		"package": "svelte-kit package",
 		"preview": "svelte-kit preview",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
