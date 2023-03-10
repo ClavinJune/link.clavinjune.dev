@@ -15,6 +15,10 @@
 			url: 'https://github.com/ClavinJune/'
 		},
 		{
+			name: 'Google Dev',
+			url: 'https://g.dev/clavinjune'
+		},
+		{
 			name: 'LinkedIn',
 			url: 'https://linkedin.com/in/juneardoc/'
 		},
